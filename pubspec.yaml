@@ -1,0 +1,41 @@
+name: restaurant_order
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  stacked: any
+  stacked_services: any
+  auto_route: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  assets:
+    - assets/bows-fruits-on-a-table.jpg
+    - assets/pizza.jpg
+    - assets/Hamburger.jpg
+    - assets/spaghetti-bolognese-recipe.jpg
+    - assets/vegetable-salad.jpg
+
+
+
+
+  uses-material-design: true
+
